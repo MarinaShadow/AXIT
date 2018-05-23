@@ -172,7 +172,7 @@
 }
 .tabs{
 	float: left;
-	margin-right: 100px;
+	margin-right: 9.09%;
 }
 .inpTab{
 	width: 109px;
@@ -189,7 +189,7 @@
 	background-color: #ff8c2c;
 }
 .middleText{
-	width: 475px;
+	width: 43.18%;
 	float: left;
 }
 .textMain{
@@ -236,7 +236,7 @@
     height: 2px; 
 }
 .SubText{
-	width: 475px;
+	width: 43.18%;
 	float: right;
 }
 .textSubTwo{
@@ -244,10 +244,12 @@
 }
 .contCloud{
 	margin-top: 40px;
-	height: 100px;
+	min-height: 100px;
 }
 .contCloudTwo{
-	height: 100px;
+	min-height: 100px;
+	clear:both;
+	margin-top: 10px;
 }
 .cloud i{
 	text-decoration: none;
@@ -262,7 +264,7 @@
 }
 .contTitle{
 	float: right;
-	width: 400px;
+	width: 87%;
 }
 .title{
 	font-size: 14px;
@@ -494,12 +496,341 @@
 }
 
 
-
 @media (max-width:1150px){
 .contentNav, .contentHeader, .socialBlock, .ollContent, .ollContentTwo, .ollContentThree, .ollOptions, .allCustomes, .centralCont, .contactUs, .contentFooter, .ollAwesome{
-	padding-left: 15px;
-	padding-right: 15px;
-	
+	padding-left: 20px;
+	padding-right: 20px;	
+}	
 }
-	
+@media (max-width:1129px){
+.design, .design p, .blockOptions{
+	width: 300px;
+}
+.mind{
+	width: 250px;
+}
+.koment{
+	margin-right: 40px;
+}
+}
+@media (max-width:1024px){
+.contentOne, .ollContentTwo, .allCustomes, .contactUs, .ollAwesome{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.design, .blockOptions{
+	margin-right: 15px;
+}
+.contTitle{
+	max-width: 85%;
+}
+.tabs {
+    margin-right: 7%;
+}
+}
+@media (max-width:1129px){
+.design, .design p, .blockOptions{
+	width: 280px;	
+}
+.city{
+	width: 450px;
+}
+.formSend {
+    margin-top: 40px;
+}
+}
+@media (max-width:994px){
+.koment {
+    margin-right: 30px;
+}	
+.city{
+	width: 430px;
+}
+.tabs {
+    margin-right: 4%;
+}
+}
+@media (max-width:934px){
+.design, .design p, .blockOptions{
+	width: 260px;	
+}
+.koment {
+    margin-right: 15px;
+}
+.mind {
+    width: 240px;
+}
+#socIcon {
+    margin-right: 40px;
+}
+}
+@media (max-width:874px){
+.city{
+	width: 400px;
+}	
+.townMak{
+	width: 300px;
+}
+.SubText {
+    width: 47%;
+}
+.design, .design p, .blockOptions{
+	width: 430px;
+}
+.design, .blockOptions{
+    margin-right: 0px;
+	margin-bottom: 40px;
+}
+.design:last-child, .blockOptions:last-child{
+	margin-bottom: 0px;
+}
+.mind {
+    width: 300px;
+}
+.koment{
+    margin-right: 0px;
+}
+.koment:first-child{
+    margin-right: 35px;
+}
+.koment:last-child{
+    margin-top: 40px;
+}
+.inp {
+    margin: 30px 0 30px 30px;
+}
+}
+@media (max-width:874px){
+.tabs {
+    margin-right: 0;
+	margin-bottom: 40px;
+	text-align: center;
+    float: none;
+}
+.inpTab {
+    width: 109px;
+    height: 60px;
+    display: inline-block;
+}
+.middleText {
+	clear: both;
+    width: 55%;
+    float: left;
+}
+}
+@media (max-width:874px){
+.tryFree {
+    width: 330px;
+}
+.inp {
+    width: 240px;
+}
+.mainText, .descripText{
+    width: 365px;
+}
+.city{
+	width: 360px;
+}
+#socIcon {
+    margin-right: 30px;
+}
+}
+@media (max-width:750px){
+.mainText, .descripText{
+	margin: 0 auto;
+	width: 395px;
+}
+.contentHeader img{
+	margin-bottom: 30px;
+}
+.contentHeader hr, .downloadFile{
+	margin: 30px auto;
+}
+.tryFree {
+	margin: 0 auto;
+    width: 360px;
+}
+.inp {
+    width: 280px;
+}
+.leftBlock, .rightBlock{
+    float: none;
+	text-align: center;
+	margin: 0 auto;
+}
+.rightBlock{
+	margin-top: 60px;
+}
+.city{
+	width: 340px;
+}
+#socIcon {
+    margin-right: 20px;
+}
+.townMak {
+    width: 280px;
+}
+.mind {
+    width: 280px;
+}
+}
+@media (max-width:700px){
+.socialBlock, .textMidTwo{
+	text-align: center;
+}
+.textSocTwo, .textSubTwo{
+	text-align: center;
+}
+.socialText {
+    width: 100%;
+    float: none;
+	text-align: center;
+}
+.myIcon{
+	float: none;
+	text-align: center;
+	margin: 15px 0 0 0;
+}
+.middleText {
+    width: 100%;
+    float: none;
+	text-align: center;
+}
+.downloadTabs{
+	margin: 50px auto;
+}
+.ollContent, .ollContentTwo, .contentOne{
+	text-align: center;
+}
+.townMak {
+    float: none;
+	margin: 0;
+}
+.SubText {
+    width: 100%;
+    float: none;
+	text-align: center;
+}
+.orangeLine{
+	    margin: 27px auto;
+}
+.title{
+	text-align: left;
+}
+.ollContentThree img {
+    float: none;
+}
+.blockOptions {
+    width: 360px;
+}
+}
+@media (max-width:695px){
+.koment {
+    margin: 0 auto;
+}
+.koment:first-child {
+    margin-right: 0px;
+}
+}
+@media (max-width:660px){
+.koment:first-child {
+    margin-bottom: 40px;
+}
+.linknav a {
+    margin-right: 15px;
+}
+.inp {
+    margin: 15px 0;
+}
+}
+@media (max-width:515px){
+.navBar img, .linknav {
+    float: none;
+}
+.navBar img {
+    margin: 21px 0 0 0;
+}
+.contentNav{
+	text-align: center;
+}
+.linknav a {
+    line-height: 50px;
+}
+.leftBlock img {
+    width: 150px;
+}
+.design, .design p, .blockOptions{
+    width: 350px;
+}
+}
+@media (max-width:455px){
+.linknav a {
+    font-size: 13.5px;
+	margin-right: 13px;
+}
+.mainText, .descripText {
+    width: 309px;
+}
+.mainText {
+    font-size: 25px;
+}
+.tryFree {
+    width: 309px;
+}
+.inpTab {
+    width: 90px;
+	height: 50px;
+}
+.city {
+    width: 309px;
+}
+.design, .design p, .blockOptions{
+    width: 309px;
+}
+.textMessage {
+    height: 100px;
+}
+}
+@media (max-width:455px){
+.linknav a {
+    font-size: 12px;
+	margin-right: 7px;
+}
+.mainText, .descripText {
+    width: 265px;
+}
+.mainText {
+    font-size: 23px;
+}
+.tryFree {
+    width: 265px;
+}
+.inp {
+    width: 235px;
+}
+#socIcon {
+    font-size: 30px;
+}
+.inpTab {
+    width: 80px;
+	height: 50px;
+}
+.city, .townMak{
+    width: 265px;
+}
+.contTitle {
+    width: 80%;
+}
+.contCloudTwo{
+	margin-top: 20px;
+}
+.design, .design p, .blockOptions{
+    width: 265px;
+}
+.mind{
+    width: 245px;
+}
+.mind:before {
+    top: 130px;
+}
 }
